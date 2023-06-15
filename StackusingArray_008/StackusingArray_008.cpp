@@ -70,3 +70,10 @@ int main() {
 		char ch = (input.empty() ? '0' : input[0]);
 		switch (ch) {
 		case '1': {
+			cout << "\nEnter an element: ";
+			string element;
+			getline(cin, element);
+			s.push(element);
+			break;
+
+		}

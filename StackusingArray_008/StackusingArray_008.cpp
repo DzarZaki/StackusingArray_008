@@ -7,3 +7,8 @@ class program {
 private:
 	string stack_array[5];
 	int top; 
+
+public:
+	program() {
+		top = -1;
+	}
